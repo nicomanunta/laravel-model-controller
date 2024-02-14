@@ -5,3 +5,18 @@
     padding: 40px 80px;
     font-size: 30px;
 }
+
+.min-height {
+    min-height: 300px;
+    background-color: #ffc107;
+    border-radius: 20px;
+
+    &:hover {
+        background-color: #ffca2c;
+    }
+}
+
+.border-card {
+    border: 0px !important;
+    border-radius: 20px;
+}
