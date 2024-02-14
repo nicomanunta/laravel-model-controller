@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Guest\PageController as PageController;
+use App\Http\Controllers\Guest\MovieController as MovieController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,4 @@ use App\Http\Controllers\Guest\PageController as PageController;
 */
 
 Route::get('/', [PageController::class, 'index']);
-
+Route::get('/movies', [MovieController::class, 'index'])-> name('index_movies');
